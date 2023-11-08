@@ -12,11 +12,10 @@ for (let i = 1; i <= numCell; i++) {
     cella.classList.add("cubo");                   //aggiungo la classe alla cella (div)
     container.appendChild(cella);                  //inseriscco cella (div) in container   
 
+    cella.innerHTML = (i)
+
     cella.addEventListener("click", function(){
         this.classList.add("coloreclick");
         
     })
 }
-
-//creare una funzione che vada ad aggiungere una classe che copra il cubo con un altro 
-//cubo di un colore diverso 
