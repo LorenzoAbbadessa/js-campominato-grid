@@ -1,6 +1,6 @@
 // <div class="cubo"></div>
 
-let numCell = 100;
+let numCell = 64;
 let container = document.getElementById("contenitore");
 
 // i 100 numeri convertirli in tag da inserire in un div con una specifica classe

@@ -46,7 +46,7 @@ main{
     flex-wrap: wrap;
 }
 :root{
-    --num-cells: 10;
+    --num-cells: 8;
 }
 .cubo{
     border: solid black 1px;
